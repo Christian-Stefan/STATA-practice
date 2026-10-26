@@ -1,0 +1,18 @@
+Multiple mediation analysis
+(always give names with respects to what factor is representative to which variable; 
+always check to see if the C.I. encloses the null-hypothesis which is indicative to discarding a double-sided
+study)
+
+The first stages of the indirect effects (a’s) for all mediators are statistically significant and 
+are: a = -0.22 (for concealment), a = 0.31 (for prospect; same regression equation as in A1), 
+and a = 0.32 (for escape). The second stages of the indirect effects are: b = -0.15 (for 
+concealment), b = 0.55 (for prospect; same regression equation as in A1), and b = 0.22 (for 
+escape). You see that concealment has a negative effect on sense of safety: the less the 
+environment affords hiding places for criminals the higher one average the pedestrian sense of 
+safety. The indirect effects (ab’s) based on bootstrapping are
+
+
+Despite the a and b being statistically significant for concealment, its bootstrapped 95% 
+CI for the ab includes zero so we would not reject the null hypothesis that the ab = 0. 
+All other mediators explain a statistically significant part of the variance, with 
+prospect at least in terms of the size of the ab being a better predictor than escape.  
