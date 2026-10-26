@@ -16,3 +16,12 @@ Despite the a and b being statistically significant for concealment, its bootstr
 CI for the ab includes zero so we would not reject the null hypothesis that the ab = 0. 
 All other mediators explain a statistically significant part of the variance, with 
 prospect at least in terms of the size of the ab being a better predictor than escape.  
+
+or
+
+The indirect effect through know-how is 0.090 with a bootstrapped 95% CI of 0.035 to 
+0.160. Since the interval does not contain the zero one could argue that the indirect 
+effect differs from 0 to a statistically significant extent. The indirect effect through 
+communication skill s 0.012 with a bootstrapped 95% CI of -0.083 to 0.088. Since the 
+interval does contains the zero one could argue that the indirect effect does not differ 
+from 0 to a statistically significant extent
