@@ -25,3 +25,35 @@ effect differs from 0 to a statistically significant extent. The indirect effect
 communication skill s 0.012 with a bootstrapped 95% CI of -0.083 to 0.088. Since the 
 interval does contains the zero one could argue that the indirect effect does not differ 
 from 0 to a statistically significant extent
+
+Multiple moderated regression
+Question Q1 (hierarchical regression)
+The R2change = 49.7%. This is found to b different from zero to a statistically significant extent
+with F(1,90) = 95.6 and p < .001.
+The semi-partial correlation between environmental attitude and littering (controlled for
+trashcan availability) is r = -0.18. Hence r2 = 3.2%. The semi-partial correlation between
+availability of trashcans and littering (controlled for attitude) is r = -0.70. Hence r2 = 49.0%. In
+other words, only 3.2% of the individual differences in littering behavior is uniquely
+explained by environmental attitude. In contrast, about 49% of the individual difference is
+explained by the availability of trashcans in one’s environment. Hence the latter seem to be
+the better predictor of the two.
+
+Question C2 (moderator effects)
+Gender moderates the effect of environmental attitude (with b = -0.37, t = -2.18 and p =
+.032) and gender moderates the effect of trashcan availability (with b = 0.35, t = 2.26 and p =
+.026). The effect of trashcan availability for men (reference) is B = -0.90 which is statistically
+significant with t = -9.55 and p < .001. For woman the effect of the availability of trashcan is
+less pronounced with B = -.90 + 0.35 = -0.55. It is different from 0, with F(1,87) = 20.7 and p
+< .001
+
+Question C3 (centering and zeroing out mediators)
+The difference between men and women conditional upon an average attitude and no
+available trashcans is -0.38. The difference however is found to be different from 0 to a
+statistically significant extent. In other words, we cannot reject that the null hypothesis that
+men and women with an average attitude show similar littering behavior when there are no
+trashcans in one’s environment.
+
+
+center envatt, prefix(cent_)
+
+reg littering gender##c.availability gender##c.cent_envatt
