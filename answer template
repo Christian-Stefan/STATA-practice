@@ -1,4 +1,4 @@
-Multiple mediation analysis
+Multiple mediation analysis==============================
 (always give names with respects to what factor is representative to which variable; 
 always check to see if the C.I. encloses the null-hypothesis which is indicative to discarding a double-sided
 study)
@@ -26,7 +26,7 @@ communication skill s 0.012 with a bootstrapped 95% CI of -0.083 to 0.088. Since
 interval does contains the zero one could argue that the indirect effect does not differ 
 from 0 to a statistically significant extent
 
-Multiple moderated regression
+Multiple moderated regression==========================
 Question Q1 (hierarchical regression)
 The R2change = 49.7%. This is found to b different from zero to a statistically significant extent
 with F(1,90) = 95.6 and p < .001.
@@ -57,3 +57,24 @@ trashcans in one’s environment.
 center envatt, prefix(cent_)
 
 reg littering gender##c.availability gender##c.cent_envatt
+
+ANOVA ====================
+Q1 (when the interaction effect is not stat sig)
+We do not observe a statistically significant effect of treatment with F(1, 204) = 3.16 and p =
+.077. The interaction effect is also not statistically significant with F(2, 204) = 1.47 and p =
+.231. In other words, we cannot reject the null hypothesis that the treatment, averaged
+across headache type, leads to the same quality of life as the placebo. We also do not have
+enough evidence that the treatment work differently for different headache types. Hence
+the present study does provide evidence for the medication being more effective than a
+placebo.
+Question B2
+We find that C = 1.211 (positive so in the expected direction) and F(1, 204) = 11.35, with p <
+.001. In other words, the predicted pattern of group means is supported by the data.
+Eta2alerting = .66. In other words, the prediction explained 66% of the observed differences
+between
+
+Contras ANALYSIS =======================
+We find that C = 1.211 (positive so in the expected direction) and F(1, 204) = 11.35, with p <
+.001. In other words, the predicted pattern of group means is supported by the data.
+Eta2alerting = .66. In other words, the prediction explained 66% of the observed differences
+between group means
